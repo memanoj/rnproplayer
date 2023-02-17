@@ -11,11 +11,12 @@ npm install rnproplayer
 ## Usage
 
 ```js
-import { multiply } from 'rnproplayer';
+import { multiply,AndroidPlayVideo } from 'rnproplayer';
 
 // ...
 
 const result = await multiply(3, 7);
+AndroidPlayVideo('url of mp4')
 ```
 
 ## Contributing
@@ -29,3 +30,8 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
+
+ <activity
+            android:name="com.rnproplayer.PlayerActivity"
+            android:exported="false" /># rnproplayer

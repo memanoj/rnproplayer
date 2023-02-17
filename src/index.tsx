@@ -20,3 +20,7 @@ const RnProPlayer = NativeModules.RnProPlayer
 export function multiply(a: number, b: number): Promise<number> {
   return RnProPlayer.multiply(a, b);
 }
+
+export function AndroidPlayVideo(url: string) {
+  return RnProPlayer.PlayVideo(url);
+}
