@@ -11,11 +11,11 @@ npm install rnproplayer
 ## Usage
 
 ```js
-import { multiply,AndroidPlayVideo } from 'rnproplayer';
+import { AndroidPlayVideo } from 'rnproplayer';
 
 // ...
 
-const result = await multiply(3, 7);
+##  Call function to play video
 AndroidPlayVideo('url of mp4')
 ```
 
