@@ -1,6 +1,6 @@
 {
   "name": "rnproplayer",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -28,7 +28,6 @@
   ],
   "scripts": {
     "test": "jest",
-    "publish": "npm publish --access public",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepack": "bob build",
