@@ -1,6 +1,6 @@
 # rnproplayer
 
-This is video player of android ios AndroidTV with play encrypted offline video 
+This is video player of android and AndroidTV,SmartTV with play encrypted offline video 
 
 #### Installation
 
